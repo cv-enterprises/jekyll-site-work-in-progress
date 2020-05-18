@@ -66,6 +66,7 @@ about:
 clients:
     section: clients
     max-height: 100px
+    horizontal-scrolling: "yes" #"yes/no"
     list:
       - title: "Stanford University School of Medicine"
         url: https://med.stanford.edu/
@@ -82,15 +83,9 @@ clients:
       - title: "Crescenta Valley Water District"
         url: https://www.cvwd.com/
         logo: assets/img/clients/CVWD.png
-      - title: "Crescenta Valley Water District"
-        url: https://www.cvwd.com/
-        logo: assets/img/clients/CVWD.png
-      - title: "Crescenta Valley Water District"
-        url: https://www.cvwd.com/
-        logo: assets/img/clients/CVWD.png
-      - title: "Crescenta Valley Water District"
-        url: https://www.cvwd.com/
-        logo: assets/img/clients/CVWD.png
+      - title: ""
+        url: https://
+        logo: assets/img/clients/
         
         
 team:
