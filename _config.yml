@@ -1,10 +1,10 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/test" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : CV Enterprises
-email      : contact@cventerprises.org #this is also the email contact forms will go to
+email      : contact@cventerprises.org #contact forms will go here
 description: "Real Students Solving Real-World Problems for Real Customers"
 author     : Ravi Riley
 logo:     #optional, defaults to site title
