@@ -1,7 +1,7 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    #title: High school kids solving real problems.
+    text: Real Students Solving Real-World Problems for Real Customers
+    button: Learn More
     buttonlink: "#services"
 
 services:
@@ -9,19 +9,21 @@ services:
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Web and App Development"
+        desc: "We have experience in Ruby on Rails, HTML & CSS, Node.js, Unity, PHP, PostgreSQL, Android Studio, XCode, and more."
+        icon: fas fa-code
+        
       - title: "Responsive Design"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: fas fa-laptop
+        
+      - title: "Process"
+        desc: "We operate under agile project management to facilitate client interaction and fast iteration. New hires prepare for full-stack development with our rigorous summer program."
+        icon: fas fa-running
 
 portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Featured projects"
     section: portfolio
     
 
@@ -63,20 +65,34 @@ about:
 
 clients:
     section: clients
+    max-height: 100px
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-    
+      - title: "Stanford University School of Medicine"
+        url: https://med.stanford.edu/
+        logo: "assets/img/clients/stanford medicine.png"
+      - title: "SimpleLayers"
+        url: http://www.simplelayers.com/home/
+        logo: assets/img/clients/SimpleLayers.png
+      - title: "Crescenta Valley High School"
+        url: https://www.gusd.net/cvhs
+        logo: assets/img/clients/CVHS.jpg
+      - title: "ZPX Interactive Software"
+        url: https://www.zpx.pt/
+        logo: "assets/img/clients/zpx.png"
+      - title: "Crescenta Valley Water District"
+        url: https://www.cvwd.com/
+        logo: assets/img/clients/CVWD.png
+      - title: "Crescenta Valley Water District"
+        url: https://www.cvwd.com/
+        logo: assets/img/clients/CVWD.png
+      - title: "Crescenta Valley Water District"
+        url: https://www.cvwd.com/
+        logo: assets/img/clients/CVWD.png
+      - title: "Crescenta Valley Water District"
+        url: https://www.cvwd.com/
+        logo: assets/img/clients/CVWD.png
+        
+        
 team:
     title: "OUR AMAZING TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
@@ -115,14 +131,16 @@ team:
             icon: fab fa-linkedin-in
           
 contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Interested in working with us?"
+    text: "Let's make something cool."
     section: contact
     
 footer:
     legal: "Privacy Policy"
     social:
       - url: https://www.linkedin.com/company/crescenta-valley-enterprises/about/
-        icon: "fab fa-linkedin-in"
+        icon: "fab fa-linkedin-in fa-lg"
+      - url: mailto:contact@cventerprises.org
+        icon: "fas fa-envelope fa-lg"
       - url: https://github.com/cv-enterprises
-        icon: "fab fa-github"
+        icon: "fab fa-github fa-lg"
