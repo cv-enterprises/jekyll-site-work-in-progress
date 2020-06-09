@@ -1,6 +1,6 @@
 header:
-    #title: High school kids solving real problems.
-    text: Real Students Solving Real-World Problems for Real Customers
+    #title: Real Students Solving Real-World Problems for Real Customers #High school kids solving real problems.
+    text: High school kids solving real-world problems. #Real Students Solving Real-World Problems for Real Customers
     button: Learn More
     buttonlink: "#services"
 
@@ -10,15 +10,15 @@ services:
     section: services
     list:
       - title: "Web and App Development"
-        desc: "We have experience in Ruby on Rails, HTML & CSS, Node.js, Unity, PHP, PostgreSQL, Android Studio, XCode, and more."
+        desc: "We have experience in Ruby on Rails, HTML + CSS + JavaScript, Node.js, Unity, PHP, PostgreSQL, Android Studio, XCode, Java, Python, C++, and more."
         icon: fas fa-code
         
       - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Lorem ipsum dolor sit amet, ipsum dolor sit amet consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
         
       - title: "Process"
-        desc: "We operate under agile project management to facilitate client interaction and fast iteration. New hires prepare for full-stack development with our rigorous summer program."
+        desc: "We operate under agile project management to facilitate client interaction and rapid iteration. New hires prepare for full-stack development with our rigorous summer program."
         icon: fas fa-running
 
 portfolio:
@@ -83,9 +83,9 @@ clients:
       - title: "Crescenta Valley Water District"
         url: https://www.cvwd.com/
         logo: assets/img/clients/CVWD.png
-      - title: ""
-        url: https://
-        logo: assets/img/clients/
+      - title: "STC Medical Clinics"
+        url: https://www.stcmedicalclinics.com/
+        logo: assets/img/clients/STC.png
         
         
 team:
