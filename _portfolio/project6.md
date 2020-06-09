@@ -5,7 +5,7 @@ image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/
 alt: 
 
 caption:
-  title: Window
+  title: test
   subtitle: Photography
   thumbnail: assets/img/portfolio/06-thumbnail.jpg
 ---
