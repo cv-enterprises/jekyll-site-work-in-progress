@@ -1,12 +1,12 @@
 header:
-    #title: Real Students Solving Real-World Problems for Real Customers #High school kids solving real problems.
-    text: High school kids solving real-world problems. #Real Students Solving Real-World Problems for Real Customers
+    #title: Real Students Solving Real-World Problems for Real Customers
+    text: High school kids solving real-world problems. 
     button: Learn More
     buttonlink: "#services"
 
 services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: ""
     section: services
     list:
       - title: "Web and App Development"
@@ -23,11 +23,9 @@ services:
 
 portfolio:
     title: "Portfolio"
-    text: "Featured projects"
+    #text: "Featured projects"
     section: portfolio
-    
 
-timeline:
     title: "About" 
     text: "Lorem ipsum timeline"
     section: timeline
