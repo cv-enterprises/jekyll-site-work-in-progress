@@ -5,7 +5,7 @@ image: assets/img/portfolio/intoolovation.png
 alt: Shirts on a hanger
 
 caption:
-  title: Intoolovation Website
+  title: Intoolovation
   subtitle: e-commerce site for Intoolovation, Inc.
   thumbnail: assets/img/portfolio/intoolovation-thumbnail.png
 ---
