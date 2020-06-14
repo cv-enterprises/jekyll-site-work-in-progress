@@ -1,13 +1,15 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/04-full.jpg
-alt: 
+title: Online Community Service Hours Logger
+subtitle: Digitized 
+image: assets/img/portfolio/community-ppl.jpg
+alt: Prashanth Bhaskara, Connor Harvey, Ms. Gaye, and Ms. Benitez
 
-caption:
-  title: Lines
-  subtitle: Branding
-  thumbnail: assets/img/portfolio/04-thumbnail.jpg
+caption: 
+  title: Community Service Logger
+  subtitle: online service hours tracker
+  thumbnail: assets/img/portfolio/community-thumbnail.png
+
+featured: "yes"
 ---
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 

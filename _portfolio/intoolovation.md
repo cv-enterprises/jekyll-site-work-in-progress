@@ -8,6 +8,8 @@ caption:
   title: Intoolovation
   subtitle: e-commerce site for Intoolovation, Inc.
   thumbnail: assets/img/portfolio/intoolovation-thumbnail.png
+
+featured: "yes"
 ---
 <details>
 <summary>Objective</summary>
