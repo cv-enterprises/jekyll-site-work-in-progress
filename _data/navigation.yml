@@ -2,14 +2,11 @@ nav:
   - title: "Services"
     section: services
 
+  - title: "Clients"
+    section: clients
+
   - title: "Portfolio"
     section: portfolio
-    
-#  - title: "About"
-#    section: timeline
-
-  - title: "Team"
-    section: team
 
   - title: "Contact"
     section: contact
@@ -17,5 +14,3 @@ nav:
   - title: "GitHub"
     url: https://github.com/cv-enterprises
     
-  - title: "Projects List"
-    url: projects.html
