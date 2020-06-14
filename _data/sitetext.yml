@@ -23,8 +23,10 @@ services:
 
 portfolio:
     title: "Portfolio"
-    #text: "Featured projects"
+    text: "Featured projects"
     section: portfolio
+    button: "view all"
+    buttonlink: "projects"
 
 about:
     title: "About Us"
