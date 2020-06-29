@@ -28,6 +28,10 @@ portfolio:
     button: "view all"
     buttonlink: "projects"
 
+portfolio_all:
+    title: "All Projects"
+    text: ""
+
 about:
     title: "About Us"
     text: "our story"
