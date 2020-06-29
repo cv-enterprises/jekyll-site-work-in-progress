@@ -1,6 +1,6 @@
 ---
 title: Online Community Service Hours Logger
-subtitle: Digitized 
+desc: Digitized 
 image: assets/img/portfolio/community-ppl.jpg
 alt: Prashanth Bhaskara, Connor Harvey, Ms. Gaye, and Ms. Benitez
 

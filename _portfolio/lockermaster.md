@@ -1,12 +1,12 @@
 ---
 title: Locker Master
-subtitle: Digitized locker registration system for CVHS
+desc: Digitized locker registration system for CVHS
 image: assets/img/portfolio/lockermaster.png
 alt: Locker Master
 
 caption:
   title: Locker Master
-  subtitle: digitized locker registration system
+  subtitle: digitized locker registration
   thumbnail: assets/img/portfolio/lockermaster.png
 
 featured: "yes"

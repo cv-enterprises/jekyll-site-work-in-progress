@@ -1,12 +1,12 @@
 ---
 title: Tutor Matcher
-subtitle: Lorem ipsum dolor sit amet consectetur.
+desc: Lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/tutor.png
 alt: 
 
 caption:
   title: Tutor Matcher
-  subtitle: Identity
+  subtitle: test
   thumbnail: assets/img/portfolio/tutor-thumb.png
 
 featured: 

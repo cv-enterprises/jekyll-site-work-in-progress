@@ -1,6 +1,6 @@
 ---
 title: Intoolovation Website
-subtitle: e-commerce site for Intoolovation, Inc. to sell their inventions
+desc: e-commerce site for Intoolovation, Inc. to sell their inventions
 image: assets/img/portfolio/intoolovation.png
 alt: Shirts on a hanger
 
