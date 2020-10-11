@@ -18,4 +18,5 @@ Agency Theme:
 [Demo](https://blackrockdigital.github.io/startbootstrap-agency/) |
 [Repo](https://github.com/raviriley/agency-jekyll-theme)
 - [ ] set up Formspree contact form
+
 color of logo: 36aeff (use as highlight color)
