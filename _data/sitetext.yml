@@ -1,83 +1,95 @@
-header:
-    #title: Real Students Solving Real-World Problems for Real Customers
-    text: High school kids solving real-world problems. 
-    button: Learn More
-    buttonlink: "#services"
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+      #title: Real Students Solving Real-World Problems for Real Customers
+      text: High school kids solving real-world problems. 
+      button: Learn More
+      buttonlink: "#services"
 
-services:
-    title: "Services"
-    text: ""
-    section: services
-    list:
-      - title: "Web and App Development"
-        desc: "We have experience in Ruby on Rails, HTML + CSS + JavaScript, Node.js, Unity, PHP, PostgreSQL, Android Studio, XCode, Java, Python, C++, and more."
-        icon: fas fa-code
-        
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, ipsum dolor sit amet consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-        
-      - title: "Process"
-        desc: "We operate under agile project management to facilitate client interaction and rapid iteration. New hires prepare for full-stack development with our rigorous summer program."
-        icon: fas fa-running
+  services:
+      title: "Services"
+      text: ""
+      section: services
+      list:
+        - title: "Web and App Development"
+          desc: "We have experience in Ruby on Rails, HTML + CSS + JavaScript, Node.js, Unity, PHP, PostgreSQL, Android Studio, XCode, Java, Python, C++, and more."
+          icon: fas fa-code
+          
+        - title: "Responsive Design"
+          desc: "Lorem ipsum dolor sit amet, ipsum dolor sit amet consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+          icon: fas fa-laptop
+          
+        - title: "Process"
+          desc: "We operate under agile project management to facilitate client interaction and rapid iteration. New hires prepare for full-stack development with our rigorous summer program."
+          icon: fas fa-running
 
-portfolio:
-    title: "Portfolio"
-    text: "Featured projects"
-    section: portfolio
-    button: "view all"
-    buttonlink: "projects"
+  portfolio:
+      title: "Portfolio"
+      text: "Featured projects"
+      section: portfolio
+      button: "view all"
+      buttonlink: "projects"
 
-portfolio_all:
-    title: "All Projects"
-    text: ""
-    
-team:
-    title: "Developer Profiles"
-    text: ""
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+  portfolio_all:
+      title: "All Projects"
+      text: ""
+      
+  team:
+      title: "Developer Profiles"
+      text: ""
+      subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
 
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
+  about:
+      title: "About Us"
+      text: "our story"
+      section: about
 
-clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "yes" #"yes/no"
-    list:
-      - title: "Stanford University School of Medicine"
-        url: https://med.stanford.edu/
-        logo: "assets/img/clients/stanford medicine.png"
-      - title: "SimpleLayers"
-        url: http://www.simplelayers.com/home/
-        logo: assets/img/clients/SimpleLayers.png
-      - title: "Crescenta Valley High School"
-        url: https://www.gusd.net/cvhs
-        logo: assets/img/clients/CVHS.jpg
-      - title: "ZPX Interactive Software"
-        url: https://www.zpx.pt/
-        logo: "assets/img/clients/zpx.png"
-      - title: "Crescenta Valley Water District"
-        url: https://www.cvwd.com/
-        logo: assets/img/clients/CVWD.png
-      - title: "STC Medical Clinics"
-        url: https://www.stcmedicalclinics.com/
-        logo: assets/img/clients/STC.png
+  clients:
+      section: clients
+      max-height: 100px
+      horizontal-scrolling: "yes" #"yes/no"
+      list:
+        - title: "Stanford University School of Medicine"
+          url: https://med.stanford.edu/
+          logo: "assets/img/clients/stanford medicine.png"
+        - title: "SimpleLayers"
+          url: http://www.simplelayers.com/home/
+          logo: assets/img/clients/SimpleLayers.png
+        - title: "Crescenta Valley High School"
+          url: https://www.gusd.net/cvhs
+          logo: assets/img/clients/CVHS.jpg
+        - title: "ZPX Interactive Software"
+          url: https://www.zpx.pt/
+          logo: "assets/img/clients/zpx.png"
+        - title: "Crescenta Valley Water District"
+          url: https://www.cvwd.com/
+          logo: assets/img/clients/CVWD.png
+        - title: "STC Medical Clinics"
+          url: https://www.stcmedicalclinics.com/
+          logo: assets/img/clients/STC.png
 
 
-contact:
-    title: "Interested in working with us?"
-    text: "Let's make something cool."
-    section: contact
-    
-footer:
-    legal: "Privacy Policy"
-    social:
-      - url: https://www.linkedin.com/company/crescenta-valley-enterprises/about/
-        icon: "fab fa-linkedin-in fa-lg"
-      - url: mailto:contact@cventerprises.org
-        icon: "fas fa-envelope fa-lg"
-      - url: https://github.com/cv-enterprises
-        icon: "fab fa-github fa-lg"
+  contact:
+      title: "Interested in working with us?"
+      text: "Let's make something cool."
+      section: contact
+      
+  footer:
+      legal: "Privacy Policy"
+      social:
+        - url: https://www.linkedin.com/company/crescenta-valley-enterprises/about/
+          icon: "fab fa-linkedin-in fa-lg"
+        - url: mailto:contact@cventerprises.org
+          icon: "fas fa-envelope fa-lg"
+        - url: https://github.com/cv-enterprises
+          icon: "fab fa-github fa-lg"
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

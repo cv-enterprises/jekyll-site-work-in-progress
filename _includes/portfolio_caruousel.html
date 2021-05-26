@@ -1,0 +1,79 @@
+<!-- Portfolio Carousel -->
+<section class="bg-light page-section" id="{{ site.data.sitetext.portfolio.section | default: 'portfolio' }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.portfolio.title | default: "portfolio" }}</h2>
+          <h3 class="section-subheading text-muted" style="margin-bottom: 40px;">{{ site.data.sitetext.portfolio.text }}</h3>
+        </div>
+      </div>
+      <!--Carousel Wrapper-->
+      <div class="col-lg-12 carousel slide carousel-multi-item" id="portfolio-carousel"  data-ride="carousel">
+        {% assign num_slides = site.portfolio.size | divided_by: 3.0 | ceil %}
+        <!-- Indicators -->
+        <style type="text/css">
+            .carousel-indicators .active {
+                background-color: {{ site.data.style.highlight }};
+            }
+        </style>
+        <ol class="carousel-indicators">
+            {% for i in (1..num_slides) %}
+            <li data-target="#portfolio-carousel" data-slide-to="{{ i }}"{% if i == 1 %} class="active"{% endif %}></li>
+            {% endfor %}
+        </ol>
+        <!-- End Indicators -->
+        <!-- Slides -->
+        <div class="carousel-inner" role="listbox">
+          {% for i in (1..num_slides) %} <!-- for i in 1 to math.ceil(portfolio.size / 3) -->
+          <!-- Slide -->
+          {% if i == 1 %}
+          <div class="carousel-item active">
+          {% else %}
+          <div class="carousel-item">
+          {% endif %}
+            <div class="row">
+              {% for project in site.portfolio %}
+                {% assign start = i | minus: 1 | times: 3 %} <!-- 3(i-1) ex: 0, 3, 6 -->
+                {% assign lim = i | times: 3 %}              <!-- i * 3  ex: 3, 6, 9 -->
+                {% if forloop.index > start and forloop.index <= lim %}
+                  <div class="col-sm-12 col-md-12 col-lg-3 col-xl-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+                      <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                          <i class="{{ site.data.style.portfolio-icon | default: 'fas fa-plus fa-3x'}}"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <img class="card-img-top" src="{{ project.image }}" alt="{{ project.alt }}">
+                      </div>
+                    </a>
+                    <div class="card-body">
+                      <div class="portfolio-caption">
+                        <h4 class="card-title">{{ project.caption.title }}</h4>
+                        <p class="text-muted">{{ project.caption.subtitle }}</p>
+                      </div>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          <!-- End Slide -->
+          {% endfor %}
+        </div>
+        <!-- End Slides -->
+        <!-- Controls -->
+        <a class="carousel-control-prev" href="#portfolio-carousel" role="button" data-slide="prev", style="width: 0%;">
+            <i class="fa fa-chevron-left fa-lg text-muted"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next text-faded" href="#portfolio-carousel" role="button" data-slide="next", style="width: 0%;">
+            <i class="fa fa-chevron-right fa-lg text-muted"></i>
+            <span class="sr-only">Next</span>
+          </a>
+          <!-- End Controls -->
+      </div>
+    <!-- End Carousel Wrapper -->
+    </div>
+  </section>
+  {% include modals.html %}
