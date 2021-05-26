@@ -6,7 +6,7 @@ alt: Prashanth Bhaskara, Connor Harvey, Ms. Gaye, and Ms. Benitez
 
 caption: 
   title: Community Service Logger
-  subtitle: online service hours tracker
+  subtitle: Online service hours tracker
   thumbnail: assets/img/portfolio/community-thumbnail.png
 
 featured: "yes"

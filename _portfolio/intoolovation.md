@@ -1,12 +1,12 @@
 ---
 title: Intoolovation Website
 desc: e-commerce site for Intoolovation, Inc. to sell their inventions
-image: assets/img/portfolio/intoolovation.png
-alt: Shirts on a hanger
+image: assets/img/portfolio/intoolovation.PNG
+alt: Intoolovation
 
 caption:
   title: Intoolovation
-  subtitle: e-commerce site for Intoolovation, Inc.
+  subtitle: E-commerce site for Intoolovation, Inc.
   thumbnail: assets/img/portfolio/intoolovation-thumbnail.png
 
 featured: "yes"
@@ -20,7 +20,7 @@ This project was built for Rafael and Janet Calvo, the owners of Altadena-based 
 
 
 
-Project Description
+### Project Description
 
 This site allows users to purchase Intoolovation products with a clean, simple user interface.
 
@@ -32,9 +32,7 @@ Features:
 
 This website implements the Shopify e-commerce platform and uses HTML, CSS, and Liquid, an open-source template language created by Shopify and written in Ruby.
 
-
-
-Future
+### Future
 
 Intoolovation.com is live and fully functional. Ravi Riley and the Calvos are developing and prototyping new inventions that will soon be added to Intoolovation's product line. Ravi will continue to maintain the site and add new products to it as these work-in-progress inventions reach production.
 

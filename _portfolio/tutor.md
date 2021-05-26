@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: Tutor Matcher
-  subtitle: test
+  subtitle: Eliminates the hassle of students trying to find tutors and vice versa
   thumbnail: assets/img/portfolio/tutor-thumb.png
 
 featured: 
@@ -20,3 +20,7 @@ Tutor Matching eliminates the hassle of students trying to find tutors and vice 
 - Client: Finish
 - Category: Identity
 
+
+
+
+									

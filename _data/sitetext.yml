@@ -16,8 +16,8 @@ en: &DEFAULT_EN
           desc: "We have experience in Ruby on Rails, HTML + CSS + JavaScript, Node.js, Unity, PHP, PostgreSQL, Android Studio, XCode, Java, Python, C++, and more."
           icon: fas fa-code
           
-        - title: "Responsive Design"
-          desc: "Lorem ipsum dolor sit amet, ipsum dolor sit amet consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        - title: "Partnerships & Internships"
+          desc: "Shared Roof Investments, Arroyos and Foothills Conservancy, SimpleLayers, STC Medical Clinics, University of California (Irvine) Students, Standford Medicine, USC BUGS"
           icon: fas fa-laptop
           
         - title: "Process"

@@ -6,7 +6,7 @@ alt: Locker Master
 
 caption:
   title: Locker Master
-  subtitle: digitized locker registration
+  subtitle: Digitized locker registration system
   thumbnail: assets/img/portfolio/lockermaster.png
 
 featured: "yes"
