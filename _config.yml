@@ -1,7 +1,7 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/new" # the subpath of your site, e.g. /blog
+baseurl: "/jekyll-site-work-in-progress" # the subpath of your site, e.g. /blog
 
 title      : CV Enterprises
 email      : contact@cventerprises.org #contact forms will go here
