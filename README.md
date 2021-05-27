@@ -1,8 +1,13 @@
 # CV Enterprises
 jekyll site - moving the old site over to Jekyll for future ease of use
 
-color of logo: #36aeff (usinf as highlight color)
+Everything has been automated, all that students will need to interface with is markdown files in the _portfolio folder.
 
-make an automated fork/mirror updater that clones repos of projects on the site, ideally with a list of (Project Name)(link) ?
+The website is done, everything is pretty much finalized except for the modals/portfolio project pages. These could use some work but should be easy to change with some basic Bootstrap and HTML knowledge. 
 
-tasks are in Projects
+#### notes:
+- color of logo: #36aeff (usinf as highlight color)
+
+- could make an automated fork/mirror updater that clones repos of projects on the site, ideally with a list of (Project Name)(link) ?
+
+- To-do's are in the Projects tab
